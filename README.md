@@ -6,7 +6,7 @@ Bugün istemci tarafında auth-tokenlar kullanarak nasıl authentication yapıl�
 
 Bu projede, Friends castından gelen verilerle etkileşimde bulunmanıza izin veren uç noktalara sahip yerel bir sunucuya bağlanacaksınız. Bu datayı temel olarak alıp, projenize login, display ve bileşen ekle sayfaları ekleyeceksiniz.
 
-API Friends karakterlerinin bir listesini tutuyor ve ekleme, silme ve düzenleme yapmanıza olanak tanıyor. API uç noktalarının tümü (oturum açma uç noktası hariç) "korumalı" kabul edilir; bu, isteği başlıkta bir kimlik doğrulama belirteci ile yapmanız gerektiği anlamına gelir, aksi takdirde API bir "401" hatası geri gönderir. API'mizin "http://localhost:9000"de sunduğu uç noktalara bir göz atın.
+API Friends karakterlerinin bir listesini tutuyor ve ekleme, silme ve düzenleme yapmanıza olanak tanıyor. API uç noktalarının tümü (oturum açma uç noktası hariç) "korumalı" kabul edilir; bu, isteği başlıkta bir kimlik doğrulama belirteci ile yapmanız gerektiği anlamına gelir, aksi takdirde API bir "401" hatası geri gönderir. API'mizin " "de sunduğu uç noktalara bir göz atın.
 
 - **[POST]** \* `/api/login`: diğer tüm requestlerin headerınına eklenmesi gereken bir token döndürür. İsteğin `body` si olara şu kriterleri gönderin: `{ username: 'workintech', password: 'wecandoit' }`
 - **[POST]** \* `/api/logout`: kullanımdaki bir tokenı siler. inaktif bir token döndürür.
